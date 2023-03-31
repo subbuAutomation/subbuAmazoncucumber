@@ -2,7 +2,7 @@ Feature:Login
   @login
   @tag1
     Scenario Outline: Login to the jaypore
-    When i click on sign in
+    When i click on login
     And i entered email as '<email>' and password as'<password>'
     And i clicked on sign in
     Then home page is displayed
